@@ -157,10 +157,44 @@ nav {
   margin-left: 1.5rem;
 }
 .btn {
-  position: absolute;
-  right: 2.5rem;
-  top: 25rem;
+  position: relative;
+  left: 13rem;
+  top: 2rem;
 }
 .headphone {
   width: 350px;
+}
+.fa-bars{
+  display: none;
+  font-size: 30px;
+  margin-right: 30px;
+}
+
+
+/* media querries goes here */
+
+@media screen and (max-width:700px) {
+  .nav-item{
+    display: none;
+  }
+  .intro-section{
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-right: 5rem;
+  }
+  .left-section{
+    margin-top: 10rem;
+  }
+  .right-section{
+    margin-right: 10rem;
+  }
+  .btn{
+    left: 8rem;
+  }
+  .right{
+    display: none;
+  }
+  .fa-bars{
+    display: block;
+  }
 }
