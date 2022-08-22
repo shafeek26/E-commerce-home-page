@@ -173,7 +173,7 @@ nav {
 
 /* media querries goes here */
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:768px) {
   .nav-item{
     display: none;
   }
@@ -183,13 +183,29 @@ nav {
     margin-right: 5rem;
   }
   .left-section{
-    margin-top: 10rem;
+    text-align: center;
+    margin-top: 5rem;
   }
   .right-section{
     margin-right: 10rem;
   }
   .btn{
-    left: 8rem;
+    left: 9rem;
+  }
+  .right{
+    display: none;
+  }
+  .fa-bars{
+    display: block;
+  }
+}
+@media screen and (max-width:900px) {
+  .nav-item{
+    display: none;
+  }
+  
+  .btn{
+    left: 9rem;
   }
   .right{
     display: none;
